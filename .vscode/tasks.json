@@ -1,12 +1,6 @@
 {
   "version": "2.0.0",
   "tasks": [
-        {
-          "label": "start:all",
-          "dependsOn": ["ng serve", "npm: server"],
-          "dependsOrder": "parallel",
-          "problemMatcher": []
-        },
     {
       "label": "ng serve",
       "type": "shell",
@@ -27,17 +21,6 @@
           "endsPattern": "Compiled successfully"
         }
       },
-      "presentation": {
-        "reveal": "always",
-        "panel": "shared"
-      }
-    },
-    {
-      "label": "npm: server",
-      "type": "shell",
-      "command": "npm",
-      "args": ["run", "server"],
-      "isBackground": true,
       "presentation": {
         "reveal": "always",
         "panel": "shared"
