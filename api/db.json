@@ -1,0 +1,19 @@
+{
+  "categorias": [
+    {
+      "id": "1",
+      "nome": "Restaurantes",
+      "descricao": "Lugares para alimentação"
+    },
+    {
+      "id": "163b",
+      "nome": "Praias",
+      "descricao": "Estou realizando um teste para praias"
+    },
+    {
+      "id": "dab4",
+      "nome": "Carro",
+      "descricao": "Vários em promoção"
+    }
+  ]
+}
